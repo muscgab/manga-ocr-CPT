@@ -4,7 +4,7 @@
 
 日期：2026-10-15
 
-我们把 [mangaOCR](https://github.com/kha-white/manga-ocr)（`kha-white/manga-ocr-base`）的结构保持不变，只换词表，在新的训练数据上做了继续预训练（continued pre-training，CPT）。目的是回答一个问题：现有日文漫画 OCR 模型之间的差距，主要来自架构，还是来自训练数据？
+我们把 [mangaOCR](https://github.com/kha-white/manga-ocr)（`kha-white/manga-ocr-base`）的结构保持不变，只换词表，在新的训练数据上做了继续预训练（continued pre-training，CPT）。
 
 一共发布两个模型，唯一的区别是输入方式：
 

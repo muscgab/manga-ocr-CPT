@@ -4,7 +4,7 @@
 
 Date: 2026-10-15
 
-We kept the architecture of [mangaOCR](https://github.com/kha-white/manga-ocr) (`kha-white/manga-ocr-base`) unchanged, replaced only its vocabulary, and continued pre-training it (CPT) on new training data. The goal was to answer one question: do the gaps between current Japanese manga OCR models come mainly from architecture, or from training data?
+We kept the architecture of [mangaOCR](https://github.com/kha-white/manga-ocr) (`kha-white/manga-ocr-base`) unchanged, replaced only its vocabulary, and continued pre-training it (CPT) on new training data.
 
 We release two models. The only difference between them is the input:
 

@@ -2,7 +2,7 @@
 
 [English](README.md) | [中文](README_zh.md)
 
-这是一个试验性仓库。我们没有改动 [mangaOCR](https://github.com/kha-white/manga-ocr)（`kha-white/manga-ocr-base`）的结构，只换了词表，在新的训练数据上做了继续预训练（continued pre-training，CPT）。目的是回答一个问题：日文漫画 OCR 模型之间的差距，主要来自架构，还是来自训练数据？
+这是一个试验性仓库。我们没有改动 [mangaOCR](https://github.com/kha-white/manga-ocr)（`kha-white/manga-ocr-base`）的结构，只换了词表，在新的训练数据上做了继续预训练（continued pre-training，CPT）。
 
 这个仓库最主要的内容是实验结论，完整内容见[技术报告](TECHNICAL_REPORT_zh.md)。仓库同时提供两个模型和它们的推理代码。
 
