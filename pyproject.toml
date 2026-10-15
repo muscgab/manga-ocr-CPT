@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "manga-ocr-cpt"
+version = "1.0.0"
+description = "Japanese manga text-box OCR: mangaOCR after continued pre-training (manga-ocr-base-CPT / -CPT-flex), 111M parameters"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "Code: Apache-2.0; model weights: CC BY-NC-SA 4.0"}
+dependencies = ["numpy", "Pillow", "torch>=2.1", "safetensors", "huggingface_hub"]
+
+[project.scripts]
+manga-ocr-cpt = "manga_ocr_cpt.cli:main"
+
+[tool.setuptools]
+packages = ["manga_ocr_cpt"]
