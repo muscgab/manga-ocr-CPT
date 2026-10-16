@@ -39,7 +39,7 @@ JMangaBench_Read v1.3 全部 7,789 框，RIN v1 归一化，batch 1，RTX 2080 T
 
 - 原版用了两种解码方式：包默认设置是 4 路束搜索加 `no_repeat_ngram_size=3`；另一种是贪心解码。两者都是 GPU fp16。
 - 逐框配对：CPT-flex 只有自己读对的 521 框，Hayai v2.5 Nova p384 只有自己读对的 254 框（$p = 5\times10^{-22}$）。
-- 两个 CPT 模型的分数没有写进 JMangaBench_Read 的成绩表。
+- CPT-flex 已列入 JMangaBench_Read 的成绩表（2026-10-16 起）；CPT-224 未列入。
 
 ## 速度
 

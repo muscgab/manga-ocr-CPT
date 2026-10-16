@@ -39,7 +39,7 @@ All 7,789 boxes of JMangaBench_Read v1.3, RIN v1 normalisation, batch 1, RTX 208
 
 - The original is shown with two decoding settings: the package defaults (4-beam search with `no_repeat_ngram_size=3`) and greedy decoding. Both run in fp16 on the GPU.
 - Paired per box: 521 boxes are read correctly only by CPT-flex and 254 only by Hayai v2.5 Nova p384 ($p = 5\times10^{-22}$).
-- The two CPT models are not added to the JMangaBench_Read leaderboard.
+- CPT-flex is listed on the JMangaBench_Read leaderboard (since 2026-10-16); CPT-224 is not.
 
 ## Speed
 
