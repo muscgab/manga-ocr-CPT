@@ -53,6 +53,7 @@ Identical to manga-ocr-nar-small, 4,471,985 images:
 - Labels are 1–64 characters long; only in-vocabulary characters are kept.
 - One round of manual review removed 603 samples and corrected 1,398.
 - Several distribution parameters of the synthetic data follow summary statistics of the JMangaBench_Read candidate pool (see §7).
+- How the synthetic handwriting is made: [manga-ocr-nar/docs/synthetic_handwriting.md](https://github.com/muscgab/manga-ocr-nar/blob/main/docs/synthetic_handwriting.md).
 - No image from the Read candidate pool or benchmark was used for training.
 - The original mangaOCR model card lists Manga109-s as training data. Our data contains no Manga109-s.
 

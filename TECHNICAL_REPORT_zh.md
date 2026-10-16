@@ -53,6 +53,7 @@
 - 标签长度 1–64 字，只保留词表内的字。
 - 一轮人工复查删去 603 条，改正 1,398 条。
 - 合成数据的几项分布参数参照了 JMangaBench_Read 候选池的汇总统计（见 §7）。
+- 合成手写数据的生成方法：[manga-ocr-nar/docs/synthetic_handwriting_zh.md](https://github.com/muscgab/manga-ocr-nar/blob/main/docs/synthetic_handwriting_zh.md)。
 - Read 的候选池和评测集图片都没有用于训练。
 - 原版 mangaOCR 的模型卡列出 Manga109-s 为训练数据。我们的数据不含 Manga109-s。
 
